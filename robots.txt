@@ -1,0 +1,24 @@
+User-agent: *
+Allow: /
+
+# Sitemap for SEO bots
+Sitemap: https://seedraisr.com/sitemap.xml
+
+# LLM discoverability signal for AI bots and agentic crawlers
+LLM: https://raw.githubusercontent.com/schneidavie/seedraisr/main/llms..txt
+
+# AI crawler references (future-facing, non-standard but emerging best practice)
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: AndiBot
+Allow: /
+
+User-agent: OpenWebSearchBot
+Allow: /
